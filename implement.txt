@@ -1,0 +1,18 @@
+Pentaho setup in Ubuntu:
+1. Get java location :
+$ whereis java
+$ ls ­l /etc/alternatives/java
+path : /usr/lib/jvm/java­7­openjdk­amd64/jre
+2. Set JAVA HOME
+$ su
+give root password.
+$ sudo gedit /etc/environment
+Write the path in /etc/environment file as bellow
+JAVA_HOME="/usr/lib/jvm/java­7­openjdk­amd64/jre"
+3. Download pentaho
+4. open data­intregation folder .
+Open terminal
+$ su
+Write password
+$ ./spoon.sh
+DONE
